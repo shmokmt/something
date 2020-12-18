@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	list := []string{
+	somethingList := []string{
 		"サムス",
 		"寒川神社（さむかわじんじゃ）",
 		"三浪津駅（さむなんじんえき）",
@@ -32,5 +32,6 @@ func main() {
 		"SUM関数",
 	}
 	rand.Seed(time.Now().UnixNano())
-	fmt.Printf("寒すぎて、%sになった\n", list[rand.Int()%len(list)])
+	max := len(somethingList)
+	fmt.Printf("寒すぎて、%sになった\n", somethingList[rand.Intn(max)])
 }
