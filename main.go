@@ -32,6 +32,15 @@ func main() {
 		"SUM関数",
 		"SAML Single Sign-On",
 		"サムソナイト",
+		"thumb（親指）",
+		"サムイル要塞",
+		"作務衣",
+		"サム山",
+		"サムシャープ広場",
+		"サムタビシ大聖堂",
+		"サムタブロ修道院",
+		"サムター要塞",
+		"サムルノリ",
 	}
 	rand.Seed(time.Now().UnixNano())
 	max := len(somethingList)
