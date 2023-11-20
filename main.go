@@ -41,6 +41,7 @@ func main() {
 		"サムタブロ修道院",
 		"サムター要塞",
 		"サムルノリ",
+		"サム・アルトマン",
 	}
 	rand.Seed(time.Now().UnixNano())
 	max := len(somethingList)
